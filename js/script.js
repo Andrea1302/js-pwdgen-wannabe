@@ -15,5 +15,9 @@ Infine scrivi sulla pagina “La password assegnata è: ” nomecognomecolorepre
     let colore_preferito = prompt ('Quale è il tuo colore preferito?');
     console.log(colore_preferito);
     // definiamo un valore ipotetico (finale anno)
-
+    const finale_anno =('21')
     // Restituiamo all utente una possibile passsword generata 
+    document.getElementById('ms_password').innerHTML = `La password generata per te &egrave: ${nome}${cognome}${colore_preferito}${finale_anno}`;
+    console.log(
+        `${nome}${cognome}${colore_preferito}${finale_anno}`
+        );
