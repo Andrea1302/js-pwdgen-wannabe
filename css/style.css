@@ -1,0 +1,8 @@
+#ms_password{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    color: white;
+    background-color: rgb(46, 46, 207);
+}
