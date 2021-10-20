@@ -7,7 +7,7 @@ Infine scrivi sulla pagina “La password assegnata è: ” nomecognomecolorepre
     // Chiediamo all utente il suo nome 
         let nome = prompt('Inserisci il tuo nome');
         // console.log(nome);
-        
+
     // chiediamo all utente il suo cognome 
         let cognome = prompt('Inserisci il tuo cognome');
         // console.log(cognome);
@@ -20,7 +20,7 @@ Infine scrivi sulla pagina “La password assegnata è: ” nomecognomecolorepre
         const finale_anno =('21');
 
     // Generazione password 
-        let genera_password= `${nome}${cognome}${colore_preferito}${finale_anno}`;
+        let genera_password= (`${nome}${cognome}${colore_preferito}${finale_anno}`);
         /* console.log(
             `${nome}${cognome}${colore_preferito}${finale_anno}`
            );*/
