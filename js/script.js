@@ -17,11 +17,11 @@ Infine scrivi sulla pagina “La password assegnata è: ” nomecognomecolorepre
     // definiamo un valore ipotetico (finale anno)
         const finale_anno =('21');
     // Generazione password 
-        let genera_password= `${nome}${cognome}${colore_preferito}${finale_anno}`
+        let genera_password= `${nome}${cognome}${colore_preferito}${finale_anno}`;
         console.log(
             `${nome}${cognome}${colore_preferito}${finale_anno}`
             );
 
-    // Restituiamo all utente una possibile passsword generata 
+    // Restituiamo all utente la password generata 
         document.getElementById('ms_password').innerHTML = `La password generata per te &egrave: ${genera_password}` ;
     
