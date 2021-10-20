@@ -8,7 +8,9 @@ Infine scrivi sulla pagina “La password assegnata è: ” nomecognomecolorepre
     let nome = prompt('Inserisci il tuo nome')
     console.log(nome);
     // chiediamo all utente il suo cognome 
-    
+    let cognome = prompt('Inserisci il tuo cognome')
+    console.log(cognome);
+
     // Chiediamo all utente il suo colore preferito
 
     // definiamo un valore ipotetico (finale anno)
